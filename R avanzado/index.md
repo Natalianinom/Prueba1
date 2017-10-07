@@ -29,7 +29,7 @@ knit        : slidify::knit2slides
 
 ## Incluir una gráfica o imagen estática.
 
-
+Imagen
 ![Hola](imagen1.jpg)
 
 ---
