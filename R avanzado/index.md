@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 title       : Presentación R avanzado Y shiny
 subtitle    : 
 author      : Natalia Niño 
+=======
+title       : 
+subtitle    : 
+author      : 
+>>>>>>> 9c05122a9bb5e18953f19fbe5aefff64c581d6a0
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -11,6 +17,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+<<<<<<< HEAD
 ## Una tabla construida en lenguaje de marcadores
 
 
@@ -37,4 +44,18 @@ Imagen
 ## Un gráfico construido con ggplot2.
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+=======
+## Read-And-Delete
+
+1. Edit YAML front matter
+2. Write using R Markdown
+3. Use an empty line followed by three dashes to separate slides!
+
+--- .class #id 
+
+## Slide 2
+
+
+
+>>>>>>> 9c05122a9bb5e18953f19fbe5aefff64c581d6a0
 
