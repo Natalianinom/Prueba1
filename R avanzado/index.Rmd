@@ -1,0 +1,40 @@
+---
+title       : Presentación R avanzado Y shiny
+subtitle    : 
+author      : Natalia Niño 
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Una tabla construida en lenguaje de marcadores
+
+```{r, echo=F, include=T}
+library(ggplot2)
+library(knitr)
+data(diamonds)
+kable(head(diamonds))
+```
+
+
+
+---
+
+## Incluir una gráfica o imagen estática.
+
+
+![Hola](imagen1.jpg)
+
+---
+
+## Un gráfico construido con ggplot2.
+
+```{r, echo=F, include=T}
+library(ggplot2)
+ggplot(cars,aes(x=speed,y=dist)) + geom_point()
+```
+
